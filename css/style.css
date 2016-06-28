@@ -1,0 +1,77 @@
+@font-face { font-family: boldFont; src: url(../fonts/hugefont.woff); }
+@font-face { font-family: bookItalic; src: url(../fonts/BookItalic.otf); }
+
+body {
+	font-family: boldFont;
+	background: #FE9A9A;
+	color: #1E316E;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+/*.grass {
+	height: 200px;
+	width: 100%;
+	background: #F68181;
+}
+
+.sky {
+	background: #adf;
+	height: 300px;
+	position: relative;
+}
+
+.football {
+	position: absolute;
+	font-size: 40px;
+	text-align: left;
+	bottom: 0px;
+}*/
+
+button {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	height: 45px;
+	font-family: boldFont;
+	font-size: 22px;
+	color: #FE9A9A;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 15px;
+	border: none;
+	background: #fff;
+}
+
+#container {
+	margin-top: 230px;
+	text-align: center;
+}
+
+.letter {
+	display: inline-block;
+	font-size: 130px;
+}
+
+.green {
+	color: #4FBB75;
+}
+
+.blue {
+	color: #48A4BB;
+}
+
+.red {
+	color: #BB444D;
+}
+
+.orange {
+	color: #E4572B;
+}
+
+.white {
+	color: #fff;
+}
