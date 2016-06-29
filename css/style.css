@@ -75,3 +75,61 @@ button {
 .white {
 	color: #fff;
 }
+
+
+/*ICONS*/
+
+.nav-bar-container {
+	width: 100%;
+	height: 60px;
+	margin-top: 250px;
+	
+}
+
+.navbar {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.navbar>li {
+	text-align: center;
+	margin: 0 auto;
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 44px;
+	color: #fff;
+	position: relative;
+	line-height: 44px;
+}
+
+.circle {
+	border: 4px solid #fff;
+	border-radius: 50px;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

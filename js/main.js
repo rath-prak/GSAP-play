@@ -17,5 +17,26 @@ $(document).ready(function(){
 	$('#resume').click(function(){
 		tl.resume();
 	})
+
+	var circle = $(".circle")
+	var plane = $(".fa-plane")
 	
+	circle.hover(function(){
+		TweenMax.to(circle, .5, {
+			x: "50px"
+		})
+		TweenMax.to(plane, .5, {
+			rotation : "360"
+		})
+	}, function(){
+		TweenMax.to(circle, .5, {
+			x: "0px"
+		})
+		TweenMax.to(plane, .5, {
+			rotation : "0"
+		})
+	})
+
 });
+
+
