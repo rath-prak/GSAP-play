@@ -32,7 +32,7 @@ $(document).ready(function(){
 		TweenMax.to(circle, .5, {
 			x: "0px"
 		})
-		TweenMax.to(plane, .5, {
+		TweenMax.to(plane, 2, {
 			rotation : "0"
 		})
 	})
